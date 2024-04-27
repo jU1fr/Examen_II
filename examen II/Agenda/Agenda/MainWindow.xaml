@@ -1,0 +1,20 @@
+﻿<Window x:Class="Agenda.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Agenda"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBoxItem Margin="340,53,45,56"></ListBoxItem>
+        <Button Content="Crear" HorizontalAlignment="Left" Margin="104,310,0,0" VerticalAlignment="Top" Height="31" Width="105" Click="Button_Click"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="104,363,0,0" VerticalAlignment="Top" Height="31" Width="105"/>
+        <TextBox TextWrapping="Wrap" Text="" Margin="14,69,495,287" x:Name="Tex" TextChanged="Tex_TextChanged"/>
+        <TextBox TextWrapping="Wrap" Text="" Margin="14,134,495,222"/>
+        <TextBox TextWrapping="Wrap" Text="" Margin="14,215,495,141"/>
+        <Label Content="Nombre" Width="100" Height="30" Margin="64,60,636,344"/>
+        <Label Content="Descripcion" Width="100" Height="30" Margin="64,127,636,277"/>
+        <Label Content="Fecha" Width="100" Height="30" Margin="64,206,636,198"/>
+    </Grid>
+</Window>
